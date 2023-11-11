@@ -1,7 +1,7 @@
 abstract type Scenario end
 
 struct splinetrack{T} <: Scenario
-    surf::string
+    surf::String
     xpts::Vector{T}
     ypts::Vector{T}
     zpts::Vector{T}
